@@ -82,6 +82,14 @@ footer {
     text-align: center;
 }
 
+.git {
+    background-color: white;
+    color: purple;
+    border-radius: 1in;
+    border-color: purple;
+    border-width: 0.3rem;
+}
+
 /*https://paulund.co.uk/how-to-create-shiny-css-buttons*/
 /***********************************************************************
  *  Green Background
