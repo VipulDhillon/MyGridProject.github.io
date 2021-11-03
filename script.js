@@ -27,7 +27,15 @@ console.log(list[0]);*/
     {
         username: "vipul",
         password: "vipul1"
-    }
+    },
+    {
+        username: "dishant",
+        password: "dishant1"
+    },
+    {
+        username: "vishwa",
+        password: "vishwa1"
+    },
 ];
 
 var newsFeed = [
@@ -54,9 +62,21 @@ function singIn(user, pass) {
 }
 
 singIn(userNamePrompt, passwordPrompt);*/
-var counterTwo = 10
+/*var counterTwo = 10
 do {
     console.log(counterTwo);
     counterTwo--;
 }
-while(counterTwo > 0);
+while(counterTwo > 0);*/
+var todos = [
+    "clean room",
+    "brush teeth",
+    "exercise",
+    "study javascript",
+    "eat healthy",
+];
+var todosLength = todos.length;
+for (var i=0; i < todosLength; i++) {
+    console.log(todos.length);
+    todos.pop();
+}
