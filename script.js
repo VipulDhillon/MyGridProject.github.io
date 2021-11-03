@@ -23,7 +23,7 @@ multiply(3,4);*/
 
 /*var list = ["tiger", "cat", "bear", "bird"];
 console.log(list[0]);*/
-var database = [
+/*var database = [
     {
         username: "vipul",
         password: "vipul1"
@@ -53,4 +53,10 @@ function singIn(user, pass) {
         }
 }
 
-singIn(userNamePrompt, passwordPrompt);
+singIn(userNamePrompt, passwordPrompt);*/
+var counterTwo = 10
+do {
+    console.log(counterTwo);
+    counterTwo--;
+}
+while(counterTwo > 0);
