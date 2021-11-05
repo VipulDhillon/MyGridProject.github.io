@@ -77,6 +77,6 @@ var todos = [
 ];
 var todosLength = todos.length;
 for (var i=0; i < todosLength; i++) {
-    console.log(todos.length);
-    todos.pop();
+    console.log(todos);
+    todos.pop(); 
 }
