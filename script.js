@@ -74,7 +74,7 @@ function singIn(username, password) {
 }
 
 var userNamePrompt = prompt("what's your username");
-var passwordPrompt = prompt("what's yous password");
+var passwordPrompt = prompt("what's your password");
 
 singIn(userNamePrompt, passwordPrompt);
 /*var counterTwo = 10
@@ -83,7 +83,7 @@ do {
     counterTwo--;
 }
 while(counterTwo > 0);*/
-/*var todos = [
+var todos = [
     "clean room",
     "brush teeth",
     "exercise",
@@ -94,4 +94,4 @@ var todosLength = todos.length;
 for (var i=0; i < todosLength; i++) {
     console.log(todos);
     todos.pop(); 
-}*/
+}
