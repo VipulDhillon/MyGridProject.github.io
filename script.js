@@ -1,5 +1,5 @@
-/* 4+3;
 
+/* 4+3;
 if (4+3 === 7) {
     alert("You are smart! as you have opened best website");
 }
@@ -67,7 +67,7 @@ function isUserValid(username, password) {
 function singIn(username, password) {
     if (isUserValid(username, password)) {
             console.log(newsFeed);
-    } 
+    }
     else {
         alert("Sorry wrong username and password!");
     }
@@ -75,6 +75,7 @@ function singIn(username, password) {
 
 var userNamePrompt = prompt("what's your username");
 var passwordPrompt = prompt("what's your password");
+
 
 singIn(userNamePrompt, passwordPrompt);
 /*var counterTwo = 10
@@ -95,3 +96,8 @@ for (var i=0; i < todosLength; i++) {
     console.log(todos);
     todos.pop(); 
 }
+var button = document.getElementsByTagName("button")[0]
+
+button.addEventListener("mouseleave", function() {
+    console.log("CLICK!!!!");
+})
