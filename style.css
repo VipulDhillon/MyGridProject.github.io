@@ -90,10 +90,7 @@ footer {
     border-width: 0.3rem;
 }
 
-/*https://paulund.co.uk/how-to-create-shiny-css-buttons*/
-/***********************************************************************
- *  Green Background
- **********************************************************************/
+
 .green{
     background: #56B870; /* Old browsers */
     background: -moz-linear-gradient(top, #56B870 0%, #a5c956 100%); /* FF3.6+ */
@@ -104,9 +101,7 @@ footer {
     background: linear-gradient(top, #56B870 0%,#a5c956 100%); /* W3C */
 }
 
-/***********************************************************************
- *  Red Background
- **********************************************************************/
+
 .red{
     background: #C655BE; /* Old browsers */
     background: -moz-linear-gradient(top, #C655BE 0%, #cf0404 100%); /* FF3.6+ */
@@ -117,9 +112,7 @@ footer {
     background: linear-gradient(top, #C655BE 0%,#cf0404 100%); /* W3C */
 }
 
-/***********************************************************************
- *  Yellow Background
- **********************************************************************/
+
 .yellow{
     background: #F3AAAA; /* Old browsers */
     background: -moz-linear-gradient(top, #F3AAAA 0%, #febf04 100%); /* FF3.6+ */
@@ -130,9 +123,7 @@ footer {
     background: linear-gradient(top, #F3AAAA 0%,#febf04 100%); /* W3C */
 }
 
-/***********************************************************************
- *  Blue Background
- **********************************************************************/
+
 .blue{
     background: #7abcff; /* Old browsers */
     background: -moz-linear-gradient(top, #7abcff 0%, #60abf8 44%, #4096ee 100%); /* FF3.6+ */
